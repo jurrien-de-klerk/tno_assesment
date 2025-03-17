@@ -1,5 +1,5 @@
 
-set(SOURCES Radar.cpp)
+set(SOURCES Radar.cpp IFF.cpp)
 
 add_library(model ${SOURCES})
 target_include_directories(model PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
