@@ -13,7 +13,9 @@
         "ms-vscode.cpptools-extension-pack",
         "xaver.clang-format",
         "ms-azuretools.vscode-docker",
-        "pinage404.bash-extension-pack"
+        "pinage404.bash-extension-pack",
+        "yzhang.markdown-all-in-one",
+        "streetsidesoftware.code-spell-checker"
       ]
     }
   }
