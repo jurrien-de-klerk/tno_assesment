@@ -1,3 +1,4 @@
+#include <FiringUnit.h>
 #include <IFF.h>
 #include <Radar.h>
 
@@ -19,8 +20,10 @@ int main(int, char **) {
 
   radar = std::make_unique<Radar>("resources/radar_data.csv");
   auto iff = std::make_shared<IFF>();
+  auto firingUnit = std::make_shared<FiringUnit>();
 
   radar->attach(iff);
+  iff->attach(firingUnit);
 
   radar->run();
   return 0;
