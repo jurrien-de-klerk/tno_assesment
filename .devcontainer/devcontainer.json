@@ -1,0 +1,20 @@
+{
+  "build": {
+    "dockerfile": "Dockerfile",
+    "options": [
+      "-t",
+      "my-name"
+    ]
+  },
+  "containerUser": "developer",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools-extension-pack",
+        "xaver.clang-format",
+        "ms-azuretools.vscode-docker",
+        "pinage404.bash-extension-pack"
+      ]
+    }
+  }
+}
